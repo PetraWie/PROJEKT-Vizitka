@@ -6,8 +6,8 @@ body {
     background-color: #b2bec3;
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
-    margin: 0;
-    text-align: block;
+    margin: auto;
+    text-align: justify;
     position: fixed;
     left: 25%;
     top: 25%;
@@ -22,6 +22,7 @@ img {
     position: absolute;
     left: 475px;
     bottom: 393px;
+    box-shadow:0 3px 10px;
 }
 
 .white {
@@ -45,6 +46,7 @@ a {
     text-transform: uppercase;
     text-decoration: none;
     display:block;
+    border-radius: 5px;
     /* text-align: center; */
     padding: 15px;
 }
